@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Fuzzy+Bubbles&display=swap');
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+.card:hover{
+	transform: scale(1.5) rotate(30deg);
+	transition: all 4s;
+}
+.card {
+	border: 30px double rgb(74, 67, 35);
+	padding: 30px;
+	background: radial-gradient(circle, rgba(68,130,60,0.5578606442577031) 0%, rgba(43,30,4,0.5634628851540616) 100%);
+	border-radius: 30px;
+}
+h1, h2, p{
+	font-family: Fuzzy Bubbles;
+	font-size: 20px;
+	text-align: center;
+
+}
