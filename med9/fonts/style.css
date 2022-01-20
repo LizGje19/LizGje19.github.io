@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script&family=Fuzzy+Bubbles&family=Oswald:wght@200&family=Pacifico&display=swap');
+
+
+h1{
+	font-family: "Fuzzy Bubbles";
+	text-align: center;
+}
+h2{
+	font-family:"Oswald" ;
+	text-align: right;
+}
+p{
+	font-family: Pacifico;
+	column-count: 3;
+	line-height: 1.5;
+	margin: 50px;
+	text-align: justify;
+	color: white;
+}
+
+.signature{
+	font-family: "Dancing Script";
+	font-size: 50px;
+
+}
+body{
+	background: rgb(60,91,130);
+background: radial-gradient(circle, rgba(60,91,130,0.5578606442577031) 9%, rgba(167,210,228,0.9136029411764706) 87%);;
+}
+
