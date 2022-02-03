@@ -1,0 +1,50 @@
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background-color:#81de9d ;
+	margin: 5px;
+
+}
+p{
+	font-size:  20px;
+	padding: 15px;
+	background-color:#81de9d ;
+	margin: 18px;
+}
+.liza1{
+	font-size: 30px;
+	padding: 15px;
+	margin: 10px;
+}
+.liza2{
+	font-size: 30px;
+	padding: 15px;
+	margin: 10px;
+}
+.liza3{
+	font-size: 30px;
+	padding: 15px;
+	margin: 10px;
+}
+
+img{
+	width: 180px;
+	
+	
+	
+}
+
+
+.second {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 200px;
+	background-color: #81abde;
+	margin: 5px;
+
+
+
+}
