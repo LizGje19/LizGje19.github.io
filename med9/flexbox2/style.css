@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script&family=Fuzzy+Bubbles&family=Oswald:wght@200&family=Pacifico&display=swap');
+body{
+	margin: 0;
+}
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("landspace.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+header h1 {
+	padding: 30px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20px;
+	font-family: Pacifico;
+}
+main{
+	padding: 100px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+main p{
+	color: black;
+	column-count: 2;
+}
+#info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px;
+	background: linear-gradient(90deg, rgba(65,2,67,1) 12%, rgba(78,126,193,1) 46%, rgba(0,212,255,1) 100%);
+font-family: Dancing Script;
+}
+#info h2{
+	font-size: 45px;
+	font-family: Dancing Script;
+}
+footer{
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+    background-image: url("landspace1.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+footer p{
+	padding: 20px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20px;
+}
