@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@400;500&family=Fuzzy+Bubbles&family=Hubballi&family=Oswald:wght@200&family=Pacifico&family=Raleway:wght@100&display=swap');
+body{
+	margin: 0;
+}
+nav{
+	background: radial-gradient(circle, rgba(177,185,189,1) 52%, rgba(94,92,92,1) 100%);
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+
+}
+
+nav img{
+	height: 100px;
+	border-radius: 50%;
+
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 15px;
+	color: darkblue;
+	font-family:Oswald ;
+}
+nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
