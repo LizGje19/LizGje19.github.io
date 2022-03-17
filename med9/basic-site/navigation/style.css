@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@400;500&family=Fuzzy+Bubbles&family=Hubballi&family=:wght@200&family=Pacifico&family=Raleway:wght@100&display=swap');
+/*
+*
+* Title: Basic website about Jaguar
+* Author:Liza Gjeka
+* Date: 17.03.2022
+*/
+
+/************** General Styling **************/
+:root{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	
+}
+/* Navigation*/
+nav{
+	background: radial-gradient(circle, rgba(76,95,105,1) 52%, rgba(135,155,175,1) 100%);
+    display: flex;
+	justify-content: space-between; /* To make the links on the right side and the loge on the left */
+	align-items: center;
+	padding: 30px;
+
+}
+
+nav img{
+	height: 100px;
+	border-radius: 50%; /* To make the logo round */
+
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /* It removes the bullet points */
+}
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none; /* It removes the underline */
+	background-color: white;
+	border-radius: 15px;
+	color: darkblue;
+	font-family:Raleway ;
+	
+	
+}
+nav ul li a:hover{
+	/* Hover changes the element if we move the mouse over it */
+	background-color: lightblue;
+	color: white;
+}
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("lizz.jpg");
+	background-position: center;
+	background-size: cover;
+}
+header h1{
+	font-size: 30px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+/* Main */
+main{
+	padding: 60px;
+	background: radial-gradient(circle, rgba(107,116,120,1) 56%, rgba(146,159,172,1) 100%);
+
+}
+main h2{
+	color: white;
+	font-size: 30px;
+}
+
+main p{
+	background: radial-gradient(circle, rgba(107,116,120,1) 100%, rgba(152,167,182,1) 100%);
+	padding: 20px;
+}
+/* Footer */
+footer{
+	height: 400px;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("lizaa.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+
+ footer p{
+ 	background: radial-gradient(circle, rgba(107,116,120,0.8071603641456583) 100%, rgba(152,167,182,1) 100%);
+ 	padding: 10px;
+ 	border-radius: 15px;
+ }
