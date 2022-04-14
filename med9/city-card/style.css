@@ -1,0 +1,58 @@
+
+article{
+width: 700px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 170px;
+position: relative;
+}
+article .image{
+background-image: url(kanada.jpg);
+width: 400px;
+height: 200px;
+background-position: center;
+background-size: cover;
+padding: 20px;}article .color{
+width: 300px;
+height: 200px;
+background-size: cover;
+background-position: center;
+padding: 20px;
+background: linear-gradient(90deg, rgba(100,231,255,1) 0%, rgba(20,57,199,1) 100%);
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+background-color: lightblue;
+}
+article .box{
+background-color: white;
+color: blue;
+padding: 10px;
+font-size: 30px;
+text-transform: uppercase;
+position: absolute;
+top: 80px;
+left: 500px;
+
+font-weight: 500;
+}
+
+article .text{
+background-color: blue;
+color: white;
+padding: 7px;
+font-size: 20px;
+text-transform: uppercase;
+position: absolute;
+top: 50px;
+left: 300px;
+
+font-weight: 300;
+}
+
