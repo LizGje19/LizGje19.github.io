@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@400;500&family=Fuzzy+Bubbles&family=Hubballi&family=:wght@200&family=Pacifico&family=Raleway:wght@100&display=swap');
+/*
+*
+* Title: Basic website about Jaguar
+* Author:Liza Gjeka
+* Date: 17.03.2022
+*/
+
+/************** General Styling **************/
+:root{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	
+}
+/* Navigation*/
+nav{
+	background: #928f94;
+    display: flex;
+	justify-content: space-between; /* To make the links on the right side and the loge on the left */
+	align-items: center;
+	padding: 30px;
+
+}
+
+nav img{
+	height: 90px;
+	border-radius: 80%; /* To make the logo round */
+
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /* It removes the bullet points */
+}
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none; /* It removes the underline */
+	background-color: white;
+	border-radius: 15px;
+	color: darkblue;
+	font-family:Raleway ;
+	
+	
+}
+nav ul li a:hover{
+	/* Hover changes the element if we move the mouse over it */
+	background-color: lightblue;
+	color: white;
+}
+
+/* Header */
+header{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("lizadheraisa.jpg");
+	background-position: center;
+	background-size: cover;
+}
+header h1{
+	font-size: 30px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+/* Main */
+main{
+	padding: 60px;
+	background: #928f94;
+
+}
+main h2{
+	color: white;
+	font-size: 30px;
+	text-align:center;
+}
+
+main p{
+	
+	padding: 20px;
+	text-align:center;
+}
+
+/*Section*/
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+section .left{
+	width: 40%;
+	background: #b3b3b3;
+	padding: 30px;
+}
+section .right{
+	width: 60%;
+	background: #686669;
+	padding: 30px;
+	color: white;
+}
+
+
+
+
+
+/* Footer */
+footer{
+	height: 200px;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("lizaaa.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+
+ footer p{
+ 	background: radial-gradient(circle, rgba(210,210,210,0.8380485983455882) 0%, rgba(203,205,207,0.2918301109506303) 100%);
+ 	padding: 10px;
+ 	border-radius: 15px;
+ }
+
+ /************ Page Styling ************/
+
+ /* Home page */
+
+ #home header{
+ 	background-image: url("lizaa.jpg");
+ }
+#home #parfumat{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.lattes ol{
+	display:flex;
+	flex-wrap:wrap;
+	gap:20px;
+	justify-content:center;
+	background:#a7aba8;
+	margin:0px;
+}
+
+
+
+
+
+
+
