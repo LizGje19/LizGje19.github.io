@@ -1,0 +1,79 @@
+
+
+*{
+	/*Nav,Article und Aside sind mit dem Padding größer als 100%. Die drei Bereiche erscheinen daher nicht nebeneinander. Box-siing: border-box.... alle Grö*/
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/*Zu lange Wörter ragen aus dem Container raus. Word-Wrap: break-word... teilt das Wort auf wei Zeilen auf.*/
+	word-wrap: break-word;
+}
+/*Desing für das Smartphone*/
+header, nav, article, aside{
+	width: 100%;
+}
+header{
+	background-color: lightgrey;
+	padding: 25px;
+}
+nav{
+	background-color: lightcoral;
+	padding: 25px;
+}
+article{
+	background-color: yellow;
+	padding: 25px;
+}
+aside{
+	background-color: lightblue;
+	padding: 25px;
+}
+/*Design Tablet*/
+@media (min-width: 600px){
+	li{
+		display: inline;
+	}
+
+
+
+	article{
+		width: 60%;
+		float: left;
+
+	}
+
+	aside{
+		width:40% ;
+		float:left ;
+	}
+
+
+
+}
+
+
+
+/*Desing für den Desktop*/
+/*768px: Trennung zw. Smartpgone/Tablet und Desktop*/
+@media(min-width: 768px){
+li{
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+nav, aside	{
+	width: 25%;
+	float: left;
+}
+
+article{
+	width: 50%;
+	float: left;
+}
+	
+#container{
+	width: 70%;
+	margin: auto;
+}
+}
