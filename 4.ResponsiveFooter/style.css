@@ -1,0 +1,53 @@
+/*Design für das Smartphone*/
+
+.ourcompany {
+ width: 100%;
+}
+
+footer{
+height: 600px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,4,66,1) 40%, rgba(6,6,74,1) 47%, rgba(2,3,60,1) 54%);
+display: flex;
+flex-direction: column;
+
+}
+
+footer p, a {
+    color: white;
+}
+
+footer h2, p {
+    color: white;
+    text-align: center;
+}
+
+
+/*Design für den Desktop*/
+@media (min-width: 768px){
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,4,66,1) 40%, rgba(6,6,74,1) 47%, rgba(2,3,60,1) 54%);
+}
+
+footer p, a {
+    color: white;
+    text-align: left;
+}
+
+footer h2 {
+    color: white;
+    text-align: left;
+}
+
+footer .ourcompany {
+    width: 50%;
+    text-align: left;
+}
+}
